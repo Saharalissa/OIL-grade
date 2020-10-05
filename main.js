@@ -52,7 +52,3 @@ if (document.getElementById("inputA").value !== "" && document.getElementById("g
 	document.getElementById("inputB").innerHTML = prices[1] * document.getElementById("inputA").value/400
 }
 
-}
-
-
-
