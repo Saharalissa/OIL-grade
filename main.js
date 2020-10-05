@@ -2,9 +2,8 @@ var gas=["10w40", "20w50"];
 var dies="15w40";
 var hyb=["0w20", "5w20", "5w30", "0w40"];
 
-var price1 = 5;
-var price2 = 7;
-var price3 = 10;
+var prices = [5, 7, 10];
+
 
 
 function add() {
@@ -42,6 +41,17 @@ function addSize() {
 	}else {
 	document.getElementById("resultAdd").innerHTML = "YOU NEED ("+7+") LITRES OF OIL"
 	}
+}
+
+function addPrice() {
+if (document.getElementById("inputA").value !== "" && document.getElementById("gasoline").checked ) {
+	document.getElementById("inputB").innerHTML = prices[0] * document.getElementById("inputA").value/400
+} else if (document.getElementById("inputA").value !== "" && document.getElementById("hybrid").checked ) {
+	document.getElementById("inputB").innerHTML = prices[2] * document.getElementById("inputA").value/400
+} else if (document.getElementById("inputA").value !== "" && document.getElementById("diesel").checked ) {
+	document.getElementById("inputB").innerHTML = prices[1] * document.getElementById("inputA").value/400
+}
+
 }
 
 

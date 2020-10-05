@@ -33,3 +33,13 @@ body{
 #fontColor{
 	color: lightblue;
 }
+
+#inputB {
+	text-align: left;
+	font-weight: bold;
+	color: orange;
+}
+
+#price {
+	font-weight: bold;
+}
