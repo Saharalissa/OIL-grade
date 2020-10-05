@@ -13,9 +13,9 @@ body{
 
 #result{
 	width: 40%;
-/*	border-style: inset;*/
 	padding: 0px 20px 5px 10px;
 	text-align: left;
+	/*font-weight: bold;*/
 	margin: 40px, 40px, 20px, 20px;
 	color: orange;
 }
@@ -25,6 +25,7 @@ body{
 	/*border-style: inset;*/
 	padding: 0px 20px 5px 10px;
 	text-align: left;
+	/*font-weight: bold;*/
 	margin: 40px, 40px, 20px, 20px;
 	color: orange;
 }

@@ -7,8 +7,8 @@
 <body><br><br>
 	<h1 id="fontColor">Be your own Technical advisor</h1><br><br>
 	<h3>Please Select your Engine type</h3>
-	<div>
-    <ul>
+	<div >
+    <ul class="container">
   <!-- <label for="engine"></label><br> -->
   <input type="radio" id="gasoline" name="engine" value="gasoline">
   <label for="gasoline">Gasoline</label><br><br>
@@ -17,20 +17,23 @@
   <input type="radio" id="diesel" name="engine" value="diesel">
   <label for="diesel">Diesel</label><br><br>
   <button id = "sort" onclick="add()">Enter</button><br>
-
-  <p id="result"></p>
 </ul>
+  <p id="result"></p>
+
 </div>
 <h3>Please Enter your Engine size</h3><br>
-<div>
-<ul>
+<div class="container2">
+
 <label for="cc" class="size">CC:</label>
 <input type="text" id="inputA" name="inputA">
 <button id = "sortAdd" onclick="addSize()">Enter</button><br>
 
 <p id="resultAdd"></p>
-</ul>
+
 </div>
+
+<p id="price" onclick="addSize()">Price</p>
+<p type="text" id="inputB"></p>
 
 <script src="main.js"></script>
 </body>
